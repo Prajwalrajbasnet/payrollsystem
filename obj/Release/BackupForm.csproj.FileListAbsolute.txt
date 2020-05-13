@@ -1,0 +1,12 @@
+D:\Disk D\Self Developed programs\source\BackupForm\bin\Release\empdetails.mdb
+D:\Disk D\Self Developed programs\source\BackupForm\bin\Release\login111.mdb
+D:\Disk D\Self Developed programs\source\BackupForm\obj\Release\BackupForm.Form1.resources
+D:\Disk D\Self Developed programs\source\BackupForm\obj\Release\BackupForm.Form2.resources
+D:\Disk D\Self Developed programs\source\BackupForm\obj\Release\BackupForm.Properties.Resources.resources
+D:\Disk D\Self Developed programs\source\BackupForm\obj\Release\BackupForm.csproj.GenerateResource.cache
+D:\Disk D\Self Developed programs\source\BackupForm\obj\Release\BackupForm.csproj.CoreCompileInputs.cache
+D:\Disk D\Self Developed programs\source\BackupForm\bin\Release\Payroll App.exe.config
+D:\Disk D\Self Developed programs\source\BackupForm\bin\Release\Payroll App.exe
+D:\Disk D\Self Developed programs\source\BackupForm\bin\Release\Payroll App.pdb
+D:\Disk D\Self Developed programs\source\BackupForm\obj\Release\Payroll App.exe
+D:\Disk D\Self Developed programs\source\BackupForm\obj\Release\Payroll App.pdb

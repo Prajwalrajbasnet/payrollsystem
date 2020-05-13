@@ -1,0 +1,26 @@
+C:\Users\Prajwal Raj Basnet\source\repos\BackupForm\bin\Debug\BackupForm.exe.config
+C:\Users\Prajwal Raj Basnet\source\repos\BackupForm\bin\Debug\BackupForm.exe
+C:\Users\Prajwal Raj Basnet\source\repos\BackupForm\bin\Debug\BackupForm.pdb
+C:\Users\Prajwal Raj Basnet\source\repos\BackupForm\obj\Debug\BackupForm.csprojAssemblyReference.cache
+C:\Users\Prajwal Raj Basnet\source\repos\BackupForm\obj\Debug\BackupForm.Form1.resources
+C:\Users\Prajwal Raj Basnet\source\repos\BackupForm\obj\Debug\BackupForm.Properties.Resources.resources
+C:\Users\Prajwal Raj Basnet\source\repos\BackupForm\obj\Debug\BackupForm.csproj.GenerateResource.cache
+C:\Users\Prajwal Raj Basnet\source\repos\BackupForm\obj\Debug\BackupForm.csproj.CoreCompileInputs.cache
+C:\Users\Prajwal Raj Basnet\source\repos\BackupForm\obj\Debug\BackupForm.exe
+C:\Users\Prajwal Raj Basnet\source\repos\BackupForm\obj\Debug\BackupForm.pdb
+C:\Users\Prajwal Raj Basnet\source\repos\BackupForm\obj\Debug\BackupForm.Form2.resources
+C:\Users\Prajwal Raj Basnet\source\repos\BackupForm\bin\Debug\empdetails.mdb
+C:\Users\Prajwal Raj Basnet\source\repos\BackupForm\bin\Debug\login111.mdb
+D:\Disk D\Self Developed programs\source\BackupForm\bin\Debug\empdetails.mdb
+D:\Disk D\Self Developed programs\source\BackupForm\bin\Debug\login111.mdb
+D:\Disk D\Self Developed programs\source\BackupForm\bin\Debug\BackupForm.exe.config
+D:\Disk D\Self Developed programs\source\BackupForm\bin\Debug\BackupForm.exe
+D:\Disk D\Self Developed programs\source\BackupForm\bin\Debug\BackupForm.pdb
+D:\Disk D\Self Developed programs\source\BackupForm\obj\Debug\BackupForm.Form1.resources
+D:\Disk D\Self Developed programs\source\BackupForm\obj\Debug\BackupForm.Form2.resources
+D:\Disk D\Self Developed programs\source\BackupForm\obj\Debug\BackupForm.Properties.Resources.resources
+D:\Disk D\Self Developed programs\source\BackupForm\obj\Debug\BackupForm.csproj.GenerateResource.cache
+D:\Disk D\Self Developed programs\source\BackupForm\obj\Debug\BackupForm.csproj.CoreCompileInputs.cache
+D:\Disk D\Self Developed programs\source\BackupForm\obj\Debug\BackupForm.exe
+D:\Disk D\Self Developed programs\source\BackupForm\obj\Debug\BackupForm.pdb
+D:\Disk D\Self Developed programs\source\BackupForm\obj\Debug\BackupForm.csprojAssemblyReference.cache
