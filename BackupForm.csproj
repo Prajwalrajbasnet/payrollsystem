@@ -71,6 +71,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>login111DataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="login111DataSet1.cs">
+      <DependentUpon>login111DataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="login111DataSet1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

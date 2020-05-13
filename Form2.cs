@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.Data.Sql;
+using System.Xml.Linq;
 
 namespace BackupForm
 {
@@ -17,6 +18,7 @@ namespace BackupForm
         public Form2()
         {
             InitializeComponent();
+            textBox2.PasswordChar = '*';
         }
 
         private void Button2_Click_1(object sender, EventArgs e)

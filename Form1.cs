@@ -145,20 +145,16 @@ namespace BackupForm
 
         private void GroupBox2_Enter(object sender, EventArgs e)
         {
-
+           
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
             // TODO: This line of code loads data into the 'login111DataSet1.login' table. You can move, or remove it, as needed.
             this.loginTableAdapter.Fill(this.login111DataSet1.login);
-            // TODO: This line of code loads data into the 'login111DataSet.login' table. You can move, or remove it, as needed.
-            //this.loginTableAdapter.Fill(this.login111DataSet.login);
-            // TODO: This line of code loads data into the 'empdetailsDataSet.details' table. You can move, or remove it, as needed.
-            //this.detailsTableAdapter.Fill(this.empdetailsDataSet.details);
-            
-            
-
+            // TODO: This line of code loads data into the 'login111DataSet1.login' table. You can move, or remove it, as needed.
+            this.loginTableAdapter.Fill(this.login111DataSet1.login);
+                   
         }
 
         private void Button1_Click(object sender, EventArgs e)
@@ -169,8 +165,10 @@ namespace BackupForm
 
         private void Button2_Click(object sender, EventArgs e)
         {
-            
             loginBindingSource.AddNew();
+            loginTableAdapter.Insert(textBox3.Text, textBox4.Text, label24.Text, txtpdeducttot.Text, txtpnetincome.Text);
+            loginTableAdapter.Fill(login111DataSet1.login);
+            
         }
 
         private void Button5_Click(object sender, EventArgs e)
@@ -181,12 +179,17 @@ namespace BackupForm
 
         private void Button3_Click(object sender, EventArgs e)
         {
-            loginTableAdapter.Insert(textBox3.Text, textBox4.Text, label24.Text, txtpdeducttot.Text, txtpnetincome.Text);
-            loginTableAdapter.Fill(login111DataSet1.login);
-            loginBindingSource.EndEdit();
-            loginTableAdapter.Update(login111DataSet1.login);
-            MessageBox.Show("Your information is recorded");
+            try {
+                this.Validate();
+                this.loginBindingSource.EndEdit();
+                this.loginTableAdapter.Update(this.login111DataSet1.login);
+                MessageBox.Show("Your information is recorded");
+            }
+  
+            catch(Exception exc) {
 
+                MessageBox.Show(exc.Message);
+            }
         }
 
         private void Button4_Click(object sender, EventArgs e)
@@ -242,6 +245,23 @@ namespace BackupForm
             String current = comboBox1.SelectedText;
 
 
+        }
+
+        private void toolStripButton2_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                this.Validate();
+                this.loginBindingSource.EndEdit();
+                this.loginTableAdapter.Update(this.login111DataSet1.login);
+                MessageBox.Show("Your information is recorded");
+            }
+
+            catch (Exception exc)
+            {
+
+                MessageBox.Show(exc.Message);
+            }
         }
 
         private void Txtpdeducttot_TextChanged(object sender, EventArgs e)

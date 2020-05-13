@@ -90,23 +90,24 @@
             this.label7 = new System.Windows.Forms.Label();
             this.Details = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.button7 = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.login111DataSet1 = new BackupForm.login111DataSet1();
+            this.loginBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.loginTableAdapter = new BackupForm.login111DataSet1TableAdapters.loginTableAdapter();
             this.employeeIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.employeeNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.grossIncomeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.totalDeductionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.netIncomeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.loginBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.login111DataSet1 = new BackupForm.login111DataSet1();
-            this.loginTableAdapter = new BackupForm.login111DataSet1TableAdapters.loginTableAdapter();
-            this.button7 = new System.Windows.Forms.Button();
             this.groupBox7.SuspendLayout();
             this.groupBox6.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.loginBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.login111DataSet1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.loginBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // label12
@@ -755,7 +756,7 @@
             // 
             this.Details.Location = new System.Drawing.Point(120, 532);
             this.Details.Name = "Details";
-            this.Details.Size = new System.Drawing.Size(1005, 393);
+            this.Details.Size = new System.Drawing.Size(1005, 316);
             this.Details.TabIndex = 26;
             this.Details.TabStop = false;
             this.Details.Text = "Payroll Data";
@@ -763,9 +764,9 @@
             // 
             // dataGridView1
             // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.AllowUserToOrderColumns = true;
             this.dataGridView1.AutoGenerateColumns = false;
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.employeeIDDataGridViewTextBoxColumn,
@@ -776,70 +777,10 @@
             this.dataGridView1.DataSource = this.loginBindingSource;
             this.dataGridView1.Location = new System.Drawing.Point(205, 553);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(914, 268);
             this.dataGridView1.TabIndex = 1;
-            // 
-            // employeeIDDataGridViewTextBoxColumn
-            // 
-            this.employeeIDDataGridViewTextBoxColumn.DataPropertyName = "Employee ID";
-            this.employeeIDDataGridViewTextBoxColumn.HeaderText = "Employee ID";
-            this.employeeIDDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.employeeIDDataGridViewTextBoxColumn.Name = "employeeIDDataGridViewTextBoxColumn";
-            this.employeeIDDataGridViewTextBoxColumn.ReadOnly = true;
-            this.employeeIDDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // employeeNameDataGridViewTextBoxColumn
-            // 
-            this.employeeNameDataGridViewTextBoxColumn.DataPropertyName = "Employee Name";
-            this.employeeNameDataGridViewTextBoxColumn.HeaderText = "Employee Name";
-            this.employeeNameDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.employeeNameDataGridViewTextBoxColumn.Name = "employeeNameDataGridViewTextBoxColumn";
-            this.employeeNameDataGridViewTextBoxColumn.ReadOnly = true;
-            this.employeeNameDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // grossIncomeDataGridViewTextBoxColumn
-            // 
-            this.grossIncomeDataGridViewTextBoxColumn.DataPropertyName = "Gross Income";
-            this.grossIncomeDataGridViewTextBoxColumn.HeaderText = "Gross Income";
-            this.grossIncomeDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.grossIncomeDataGridViewTextBoxColumn.Name = "grossIncomeDataGridViewTextBoxColumn";
-            this.grossIncomeDataGridViewTextBoxColumn.ReadOnly = true;
-            this.grossIncomeDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // totalDeductionDataGridViewTextBoxColumn
-            // 
-            this.totalDeductionDataGridViewTextBoxColumn.DataPropertyName = "Total Deduction";
-            this.totalDeductionDataGridViewTextBoxColumn.HeaderText = "Total Deduction";
-            this.totalDeductionDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.totalDeductionDataGridViewTextBoxColumn.Name = "totalDeductionDataGridViewTextBoxColumn";
-            this.totalDeductionDataGridViewTextBoxColumn.ReadOnly = true;
-            this.totalDeductionDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // netIncomeDataGridViewTextBoxColumn
-            // 
-            this.netIncomeDataGridViewTextBoxColumn.DataPropertyName = "Net Income";
-            this.netIncomeDataGridViewTextBoxColumn.HeaderText = "Net Income";
-            this.netIncomeDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.netIncomeDataGridViewTextBoxColumn.Name = "netIncomeDataGridViewTextBoxColumn";
-            this.netIncomeDataGridViewTextBoxColumn.ReadOnly = true;
-            this.netIncomeDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // loginBindingSource
-            // 
-            this.loginBindingSource.DataMember = "login";
-            this.loginBindingSource.DataSource = this.login111DataSet1;
-            // 
-            // login111DataSet1
-            // 
-            this.login111DataSet1.DataSetName = "login111DataSet1";
-            this.login111DataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // loginTableAdapter
-            // 
-            this.loginTableAdapter.ClearBeforeFill = true;
             // 
             // button7
             // 
@@ -851,28 +792,85 @@
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.Button7_Click);
             // 
+            // panel1
+            // 
+            this.panel1.Location = new System.Drawing.Point(820, 424);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(430, 101);
+            this.panel1.TabIndex = 42;
+            // 
+            // login111DataSet1
+            // 
+            this.login111DataSet1.DataSetName = "login111DataSet1";
+            this.login111DataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // loginBindingSource
+            // 
+            this.loginBindingSource.DataMember = "login";
+            this.loginBindingSource.DataSource = this.login111DataSet1;
+            // 
+            // loginTableAdapter
+            // 
+            this.loginTableAdapter.ClearBeforeFill = true;
+            // 
+            // employeeIDDataGridViewTextBoxColumn
+            // 
+            this.employeeIDDataGridViewTextBoxColumn.DataPropertyName = "Employee ID";
+            this.employeeIDDataGridViewTextBoxColumn.HeaderText = "Employee ID";
+            this.employeeIDDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.employeeIDDataGridViewTextBoxColumn.Name = "employeeIDDataGridViewTextBoxColumn";
+            // 
+            // employeeNameDataGridViewTextBoxColumn
+            // 
+            this.employeeNameDataGridViewTextBoxColumn.DataPropertyName = "Employee Name";
+            this.employeeNameDataGridViewTextBoxColumn.HeaderText = "Employee Name";
+            this.employeeNameDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.employeeNameDataGridViewTextBoxColumn.Name = "employeeNameDataGridViewTextBoxColumn";
+            // 
+            // grossIncomeDataGridViewTextBoxColumn
+            // 
+            this.grossIncomeDataGridViewTextBoxColumn.DataPropertyName = "Gross Income";
+            this.grossIncomeDataGridViewTextBoxColumn.HeaderText = "Gross Income";
+            this.grossIncomeDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.grossIncomeDataGridViewTextBoxColumn.Name = "grossIncomeDataGridViewTextBoxColumn";
+            // 
+            // totalDeductionDataGridViewTextBoxColumn
+            // 
+            this.totalDeductionDataGridViewTextBoxColumn.DataPropertyName = "Total Deduction";
+            this.totalDeductionDataGridViewTextBoxColumn.HeaderText = "Total Deduction";
+            this.totalDeductionDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.totalDeductionDataGridViewTextBoxColumn.Name = "totalDeductionDataGridViewTextBoxColumn";
+            // 
+            // netIncomeDataGridViewTextBoxColumn
+            // 
+            this.netIncomeDataGridViewTextBoxColumn.DataPropertyName = "Net Income";
+            this.netIncomeDataGridViewTextBoxColumn.HeaderText = "Net Income";
+            this.netIncomeDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.netIncomeDataGridViewTextBoxColumn.Name = "netIncomeDataGridViewTextBoxColumn";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1262, 1055);
             this.Controls.Add(this.button7);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.groupBox4);
-            this.Controls.Add(this.button3);
             this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.Details);
+            this.Controls.Add(this.panel1);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PayrollSystem";
@@ -888,8 +886,8 @@
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.loginBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.login111DataSet1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.loginBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -958,6 +956,8 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.GroupBox Details;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Panel panel1;
         private login111DataSet1 login111DataSet1;
         private System.Windows.Forms.BindingSource loginBindingSource;
         private login111DataSet1TableAdapters.loginTableAdapter loginTableAdapter;
@@ -966,7 +966,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn grossIncomeDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn totalDeductionDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn netIncomeDataGridViewTextBoxColumn;
-        private System.Windows.Forms.Button button7;
     }
 }
 
